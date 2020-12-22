@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 [RequireComponent(typeof(Rigidbody))]
 
-public class Player : MonoBehaviour
+public class Plane : MonoBehaviour
 {
     [SerializeField] private float _speed;
     [SerializeField] private GameObject _template;
